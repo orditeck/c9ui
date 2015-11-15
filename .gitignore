@@ -1,3 +1,6 @@
 /vendor
 .env
+.idea
+.c9
+composer.lock
 /database/database.sqlite
