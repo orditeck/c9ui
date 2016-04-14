@@ -28,7 +28,7 @@ Install c9ui on the same server and with the same user you installed c9/core. c9
 git clone git://github.com/orditeck/c9ui.git c9ui
 cd c9ui
 touch database/database.sqlite
-mv .env.example .env
+cp .env.example .env
 composer install
 php artisan migrate
 ```
