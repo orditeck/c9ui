@@ -39,7 +39,7 @@ Now open your `.env` file and fill in the `APP_KEY` setting ([32 chars random st
 php artisan serve
 ```
 
-c9ui should now be up and running on [http://localhost:8000](http://localhost:8000). I personnally created a vhost with Apache using a subdomain, for example c9ui.mysite.com with an HTTP Basic Auth, pointing to `lumen/public` folder.
+c9ui should now be up and running on [http://localhost:8000](http://localhost:8000). I personally created a vhost with Apache using a subdomain, for example c9ui.mysite.com with an HTTP Basic Auth, pointing to `lumen/public` folder.
 
 ### Configuration
 
